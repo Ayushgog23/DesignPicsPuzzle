@@ -140,7 +140,7 @@ const PhotoGalleries = () => {
         {data.map((item, i) => (
           <li key={i}>
             <img
-              src={`https://puzzleapi.printscapes.com/api/Galleries${item.Thumbnail}`}
+              src={`https://puzzleapi.printscapes.com${item.Thumbnail}`}
               alt="Gallery Thumbnail"
             />
             
